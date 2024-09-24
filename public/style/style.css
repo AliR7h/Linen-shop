@@ -557,11 +557,121 @@ video {
 @font-face {
   font-family: 'Lalezar';
 
-  src: url("../public/fonts/Lalezar.ttf") format("ttf");
+  src: local("Lalezar"), url("../public/fonts/Lalezar.ttf") format("ttf");
+
+  font-display: inherit;
 }
 
 @font-face {
   font-family: 'Yekan';
 
-  src: url("../public/fonts/Yekan.ttf") format("ttf");
+  src: local("Yekan"), url("../public/fonts/Yekan.ttf") format("ttf");
+
+  font-display: inherit;
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-\[\#141313\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 19 19 / var(--tw-bg-opacity));
+}
+
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 9 11 / var(--tw-bg-opacity));
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-Lalezar {
+  font-family: Lalezar;
+}
+
+.font-Yekan {
+  font-family: Yekan;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }

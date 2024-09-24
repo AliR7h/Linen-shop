@@ -2,11 +2,12 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    fontFamily: {
-      "Lalezar" : "Lalezar",
-      "Yekan" : "Yekan"
+    extend: {
+      fontFamily: {
+        "Lalezar" : "Lalezar",
+        "Yekan" : "Yekan"
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
