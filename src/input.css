@@ -7,12 +7,10 @@
     @font-face {
         font-family: "Lalezar";
         src: local("Lalezar"), url("../fonts/Lalezar.ttf") format("truetype");
-        /* font-display: swap; */
     }
     @font-face {
         font-family: "Yekan";
         src: local("Yekan"), url("../fonts/Yekan.ttf") format("truetype");
-        /* font-display: swap; */
     }
 }
 
@@ -22,16 +20,3 @@
         max-width: 1200px; 
     }
 }
-
-/* responsive 
-
-@media screen and (min-width : 768px) {
-    .katooni-item-col{
-        width: 50%;
-    }
-}
-@media screen and (min-width : 992px) {
-    .katooni-item-col{
-        width: 25%;
-    }
-} */
